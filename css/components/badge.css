@@ -1,0 +1,12 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  /*원으로 만들고 싶으면 크기의 반을 radius에 넣으면 된다.*/
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}

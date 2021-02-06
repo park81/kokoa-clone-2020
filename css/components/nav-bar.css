@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  /*width를 설정해주면 해당 사이즈만큼 크기가 설정되는데
+  padding이 주어지면 그 주어진만큼 더 전체가 커져 박스 크기가 설정된다.
+  하지만 box-sizing을 border-box로 해주면 padding이 늘어나도 padding
+  늘어난 만큼 box사이즈를 늘리지 않는다.*/
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  /*absolute는 가장 가까운 relative를 가진 부모 기준으로 움직인다.*/
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__answer {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  /*원으로 만들고 싶으면 크기의 반을 radius에 넣으면 된다.*/
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  /*absolute는 가장 가까운 relative를 가진 부모 기준으로 움직인다.*/
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
