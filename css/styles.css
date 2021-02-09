@@ -18,6 +18,8 @@ html에 여러줄의 link를 만들지 않기 위해*/
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
+
 /*모든 스크린에 적용 되는 font나 background등은 여기다 쓰는게 좋다.*/
 body {
   color: #2e363e;
