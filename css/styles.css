@@ -11,6 +11,7 @@ html에 여러줄의 link를 만들지 않기 위해*/
 @import "components/badge.css";
 @import "components/icon-raw.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
